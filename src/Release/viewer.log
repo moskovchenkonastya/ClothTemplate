@@ -1,0 +1,50 @@
+﻿Построение начато 16.12.2015 1:20:22.
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" в узле 2 (целевые объекты build).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" (1) выполняет построение "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" (2) в узле 1 (целевые объекты GetTargetPath).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     2>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" завершено (целевые объекты GetTargetPath).
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" (1) выполняет построение "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" (3) в узле 2 (целевые объекты GetTargetPath).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     3>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" завершено (целевые объекты GetTargetPath).
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" (1) выполняет построение "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" (2:2) в узле 1 (целевые объекты GetNativeManifest).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     2>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" завершено (целевые объекты GetNativeManifest).
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" (1) выполняет построение "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" (3:2) в узле 2 (целевые объекты GetNativeManifest).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     3>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" завершено (целевые объекты GetNativeManifest).
+     1>InitializeBuildStatus:
+         Создание "Release\viewer.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IGLUS /IExternal\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" (1) выполняет построение "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" (2:3) в узле 1 (целевые объекты GetResolvedLinkLibs).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" (1) выполняет построение "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" (3:3) в узле 2 (целевые объекты GetResolvedLinkLibs).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     2>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" завершено (целевые объекты GetResolvedLinkLibs).
+     3>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" завершено (целевые объекты GetResolvedLinkLibs).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\viewer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:Release /LIBPATH:External\lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\viewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\Bin\viewer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\viewer.lib" /MACHINE:X86 Release\ClothSim.obj
+         Release\main.obj
+         C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Release\GLUS.lib
+         C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Release\vsgl3.lib
+         Создание кода
+         Создание кода завершено
+         viewer.vcxproj -> C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\..\Bin\viewer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Bin\viewer.exe;#1" /manifest Release\viewer.exe.intermediate.manifest
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" (1) выполняет построение "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" (2:4) в узле 1 (целевые объекты GetCopyToOutputDirectoryItems).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" (1) выполняет построение "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" (3:4) в узле 2 (целевые объекты GetCopyToOutputDirectoryItems).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     2>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" завершено (целевые объекты GetCopyToOutputDirectoryItems).
+     3>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" завершено (целевые объекты GetCopyToOutputDirectoryItems).
+     1>FinalizeBuildStatus:
+         Файл "Release\viewer.unsuccessfulbuild" удаляется.
+         Обращение к "Release\viewer.lastbuildstate".
+     1>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\viewer.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.65

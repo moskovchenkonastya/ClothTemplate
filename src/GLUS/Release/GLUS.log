@@ -1,0 +1,33 @@
+﻿Построение начато 16.12.2015 1:00:29.
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" в узле 2 (целевые объекты build).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Release\".
+       InitializeBuildStatus:
+         Создание "Release\GLUS.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IExternal\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt glus_load.c glus_matrix.c glus_modelview.c glus_shaderprogram.c glus_shape.c glus_vector.c glus_windows.c
+         glus_load.c
+         glus_matrix.c
+         glus_modelview.c
+         glus_shaderprogram.c
+         glus_shape.c
+         glus_vector.c
+         glus_windows.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Release\GLUS.lib" /NOLOGO /LTCG Release\glus_load.obj
+         Release\glus_matrix.obj
+         Release\glus_modelview.obj
+         Release\glus_shaderprogram.obj
+         Release\glus_shape.obj
+         Release\glus_vector.obj
+         Release\glus_windows.obj
+         GLUS.vcxproj -> C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Release\GLUS.lib
+       FinalizeBuildStatus:
+         Файл "Release\GLUS.unsuccessfulbuild" удаляется.
+         Обращение к "Release\GLUS.lastbuildstate".
+     1>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.69

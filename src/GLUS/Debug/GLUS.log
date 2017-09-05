@@ -1,0 +1,34 @@
+﻿Построение начато 15.12.2015 23:51:19.
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" в узле 2 (целевые объекты build).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Debug\".
+       InitializeBuildStatus:
+         Создание "Debug\GLUS.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IExternal\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt glus_load.c glus_matrix.c glus_modelview.c glus_shaderprogram.c glus_shape.c glus_vector.c glus_windows.c
+         glus_windows.c
+         glus_vector.c
+         glus_shape.c
+         glus_shaderprogram.c
+         glus_modelview.c
+         glus_matrix.c
+         glus_load.c
+         Создание кода...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Debug\GLUS.lib" /NOLOGO Debug\glus_load.obj
+         Debug\glus_matrix.obj
+         Debug\glus_modelview.obj
+         Debug\glus_shaderprogram.obj
+         Debug\glus_shape.obj
+         Debug\glus_vector.obj
+         Debug\glus_windows.obj
+         GLUS.vcxproj -> C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Debug\GLUS.lib
+       FinalizeBuildStatus:
+         Файл "Debug\GLUS.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\GLUS.lastbuildstate".
+     1>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\GLUS\GLUS.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.51

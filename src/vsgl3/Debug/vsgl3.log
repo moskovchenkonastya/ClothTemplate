@@ -1,0 +1,32 @@
+﻿Построение начато 15.12.2015 23:51:19.
+     1>Проект "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" в узле 3 (целевые объекты build).
+       Файл проекта содержит ToolsVersion="12.0", не поддерживаемую данной версией MSBuild. Считается, что проект имеет ToolsVersion="4.0".
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Debug\".
+       InitializeBuildStatus:
+         Создание "Debug\vsgl3.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\GLUS /I..\External\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt glHelper.cpp glHelperDevil.cpp glHelperMesh.cpp glHelperShaderProgram.cpp glHelperTexture.cpp
+         glHelperTexture.cpp
+         glHelperShaderProgram.cpp
+     1>c:\users\di0niz\desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\glhelpershaderprogram.cpp(192): warning C4244: аргумент: преобразование "std::streamoff" в "unsigned int", возможна потеря данных
+     1>c:\users\di0niz\desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\glhelpershaderprogram.cpp(255): warning C4244: аргумент: преобразование "std::streamoff" в "unsigned int", возможна потеря данных
+         glHelperMesh.cpp
+         glHelperDevil.cpp
+         glHelper.cpp
+         Создание кода...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Debug\vsgl3.lib" /NOLOGO Debug\glHelper.obj
+         Debug\glHelperDevil.obj
+         Debug\glHelperMesh.obj
+         Debug\glHelperShaderProgram.obj
+         Debug\glHelperTexture.obj
+         vsgl3.vcxproj -> C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\Debug\vsgl3.lib
+       FinalizeBuildStatus:
+         Файл "Debug\vsgl3.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\vsgl3.lastbuildstate".
+     1>Построение проекта "C:\Users\di0niz\Desktop\task4_cloth_template\task4_cloth_template\src\vsgl3\vsgl3.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:04.49
